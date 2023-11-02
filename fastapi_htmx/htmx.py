@@ -80,7 +80,7 @@ def htmx(  # noqa: C901
 
             # in case no constructor function or return dict was supplied, assume a template not needing variables
             if response is None:
-                logging.debug("No data provided for endpoit, providing empty dict.")
+                logging.debug("No data provided for endpoint, providing empty dict.")
                 response = {}
 
             # in case of RedirectResponse or similar
